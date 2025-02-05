@@ -29,3 +29,30 @@
     background-color: #555;
     border-radius: 5px;
 }
+
+/* Main container for homepage */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    gap: 20px;
+}
+
+/* Left frame with photo */
+.left-frame img {
+    width: 150px; /* Adjust based on preference */
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #333;
+}
+
+/* Center frame with contact info */
+.center-frame {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
