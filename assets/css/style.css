@@ -1,0 +1,8 @@
+/* Style the navigation bar */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
